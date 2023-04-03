@@ -77,7 +77,7 @@ function Weather() {
               </h3>
               <p>{current?.condition?.text}</p>
               <div className="location">
-                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                <i className="fa-sharp fa-solid fa-location-dot"></i>
                 <p>
                   {location?.name},<span>{location?.country}</span>
                 </p>
@@ -86,7 +86,7 @@ function Weather() {
             {/* <hr></hr> */}
             <div className="footer-weather">
               <div className="feelslike center">
-                <i class="fa-solid fa-temperature-three-quarters"></i>
+                <i className="fa-solid fa-temperature-three-quarters"></i>
                 <p>
                   <strong>
                     {current?.feelslike_c}
@@ -96,7 +96,7 @@ function Weather() {
                 </p>
               </div>
               <div className="humidity center">
-                <i class="fa-solid fa-droplet"></i>
+                <i className="fa-solid fa-droplet"></i>
                 <p>
                   <strong>{current?.humidity}%</strong>
                   <br /> Humidity
