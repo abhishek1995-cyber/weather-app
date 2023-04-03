@@ -83,7 +83,6 @@ function Weather() {
                 </p>
               </div>
             </div>
-            {/* <hr></hr> */}
             <div className="footer-weather">
               <div className="feelslike center">
                 <i className="fa-solid fa-temperature-three-quarters"></i>
